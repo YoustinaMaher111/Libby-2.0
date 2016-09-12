@@ -1,7 +1,8 @@
 import java.io.IOException;
 
 public class userDirect {
-public static void main (String[]args) throws IOException{
-sortString.searchForKeywords("physics is good");
+public static void main (String[]args) throws IOException, ClassNotFoundException{
+sortString.makeDirs();
+sortString.searchForKeywords("physics 23 is good");
 }
 }
